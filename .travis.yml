@@ -1,0 +1,13 @@
+language: csharp
+solution: Lab08.sln
+install:
+  - nuget restore Lab08.sln
+  - nuget install NUnit.Runners -Version 3.8.0 -OutputDirectory testrunner
+script:
+  - msbuild /p:Configuration=Release Lab08.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe sad/Lab08/UnitTestLab8/bin/Debug/UnitTestLab8.dll
+  
+notifications:
+  email:
+    on_success: change
+    on_failure: always
