@@ -1,0 +1,7 @@
+D:\Programming\Lab08\UnitTestLab8\bin\Debug\UnitTestLab8.dll
+D:\Programming\Lab08\UnitTestLab8\bin\Debug\UnitTestLab8.pdb
+D:\Programming\Lab08\UnitTestLab8\bin\Debug\Lab08.exe
+D:\Programming\Lab08\UnitTestLab8\bin\Debug\Lab08.pdb
+D:\Programming\Lab08\UnitTestLab8\obj\Debug\UnitTestLab8.csprojResolveAssemblyReference.cache
+D:\Programming\Lab08\UnitTestLab8\obj\Debug\UnitTestLab8.dll
+D:\Programming\Lab08\UnitTestLab8\obj\Debug\UnitTestLab8.pdb

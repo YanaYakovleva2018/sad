@@ -1,0 +1,74 @@
+﻿<Window x:Class="Lab08.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор" Height="600" Width="525">
+    <!--Основной контейнер компоновки-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Поле воода/вывода-->
+        <TextBox x:Name="InOut" Grid.Column="0" Grid.Row="1"
+                 Grid.ColumnSpan="2"  Background="AliceBlue"
+                 Text="0" TextAlignment="Right"
+                 VerticalContentAlignment="Bottom" FontSize="20"
+                 PreviewKeyDown="InOut_PreviewKeyDown"
+                 PreviewTextInput="InOut_PreviewTextInput"></TextBox>
+        <!--Кнопка отвечающая за сложение-->
+        <Button x:Name="Add" Grid.Column="0" Grid.Row="2" Content="+" 
+                FontSize="20" Click="Add_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за вычитание-->
+        <Button x:Name="Sub" Grid.Column="1" Grid.Row="2" Content="-" 
+                FontSize="20" Click="Sub_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за умножение-->
+        <Button x:Name="Mult" Grid.Column="0" Grid.Row="3" Content="*" 
+                FontSize="20" Click="Mult_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за деление-->
+        <Button x:Name="Div" Grid.Column="1" Grid.Row="3" Content="/" 
+                FontSize="20" Click="Div_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за взятие корня-->
+        <Button x:Name="Squre" Grid.Column="0" Grid.Row="4" Content="1^1/2" 
+                FontSize="20" Click="Squre_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за взятие обратного-->
+        <Button x:Name="Rev" Grid.Column="1" Grid.Row="4" Content="1/x" 
+                FontSize="20" Click="Rev_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за взятие косинуса-->
+        <Button x:Name="Cos" Grid.Column="0" Grid.Row="5" Content="Cos(x)" 
+                FontSize="20" Click="Cos_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за получения результата-->
+        <Button x:Name="Res" Grid.Column="1" Grid.Row="5" Content="=" 
+                FontSize="20" Click="Res_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за закрытие приложения-->
+        <Button x:Name="Close" Grid.Column="0" Grid.Row="6" Content="Close" 
+                FontSize="20" Click="Close_Click"
+                Background="DarkKhaki"></Button>
+        <!--Кнопка отвечающая за очистку поля ввода и истории-->
+        <Button x:Name="Clear" Grid.Column="1" Grid.Row="6" Content="Clear" 
+                FontSize="20" Click="Clear_Click"
+                Background="DarkKhaki"></Button>
+        <!--Метка для вывода сообщений об ошибке-->
+        <Label x:Name="History" Grid.Column="1" Grid.Row="0" Margin="10,10,10,1"
+               FontStyle="Italic" FontSize="14" Foreground="DarkViolet"/>
+        <!--Текст для вывода операнда и выбранной операции-->
+        <TextBlock x:Name="Error" Grid.Column="0" Grid.Row="0"
+                   Margin="1,20,0,1"/>
+    </Grid>
+</Window>

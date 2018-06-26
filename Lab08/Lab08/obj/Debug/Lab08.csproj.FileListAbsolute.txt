@@ -1,0 +1,13 @@
+D:\Programming\Lab08\Lab08\bin\Debug\Lab08.exe.config
+D:\Programming\Lab08\Lab08\bin\Debug\Lab08.exe
+D:\Programming\Lab08\Lab08\bin\Debug\Lab08.pdb
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.csprojResolveAssemblyReference.cache
+D:\Programming\Lab08\Lab08\obj\Debug\MainWindow.baml
+D:\Programming\Lab08\Lab08\obj\Debug\MainWindow.g.cs
+D:\Programming\Lab08\Lab08\obj\Debug\App.g.cs
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08_MarkupCompile.cache
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.g.resources
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.Properties.Resources.resources
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.csproj.GenerateResource.Cache
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.exe
+D:\Programming\Lab08\Lab08\obj\Debug\Lab08.pdb

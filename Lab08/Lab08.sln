@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08", "Lab08\Lab08.csproj", "{CFF5D49C-7AC0-48A0-968E-ABB8C4EDE688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLab8", "UnitTestLab8\UnitTestLab8.csproj", "{82CFD840-354C-441D-81B8-0A07A498D987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF5D49C-7AC0-48A0-968E-ABB8C4EDE688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF5D49C-7AC0-48A0-968E-ABB8C4EDE688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF5D49C-7AC0-48A0-968E-ABB8C4EDE688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF5D49C-7AC0-48A0-968E-ABB8C4EDE688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CFD840-354C-441D-81B8-0A07A498D987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CFD840-354C-441D-81B8-0A07A498D987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CFD840-354C-441D-81B8-0A07A498D987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CFD840-354C-441D-81B8-0A07A498D987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
